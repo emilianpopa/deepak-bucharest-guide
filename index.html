@@ -47,6 +47,16 @@
   .impress h3{color:var(--amber)}
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   @media(max-width:620px){.grid{grid-template-columns:1fr}header.hero h1{font-size:31px}}
+  figure{margin:18px 0}
+  figure img{width:100%;height:auto;border-radius:14px;display:block;
+    box-shadow:0 6px 22px rgba(20,30,60,.12)}
+  figure figcaption{font-size:13px;color:var(--muted);margin-top:8px;text-align:center}
+  .hero-img{width:100%;max-height:340px;object-fit:cover;border-radius:0;display:block;
+    margin-top:30px;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+  .photorow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+  .photorow img{width:100%;height:200px;object-fit:cover;border-radius:12px;display:block;
+    box-shadow:0 4px 16px rgba(20,30,60,.1)}
+  @media(max-width:620px){.photorow{grid-template-columns:1fr}.photorow img{height:220px}}
   a{color:var(--blue);text-decoration:none;border-bottom:1px solid #c7d6fb}
   a:hover{border-color:var(--blue)}
   .tip{font-size:15px;color:var(--muted);background:#f4f6fb;border-radius:10px;padding:12px 16px;margin:12px 0}
@@ -64,6 +74,7 @@
     <p>City buzz for a night, then mountains, castles and medieval Saxon villages an hour up the road. Everything here is within easy reach for a Friday-to-Sunday.</p>
     <div class="dates">Fri arrival → Sun departure</div>
   </div>
+  <img class="hero-img" src="images/peles.jpg" alt="Peleș Castle in the Carpathian forest">
 </header>
 
 <section>
@@ -80,6 +91,11 @@
     <h2>Day 1 — <span class="em">Bucharest</span></h2>
     <p class="sub">She lands Friday. Keep it easy and atmospheric, no big drives.</p>
 
+    <figure>
+      <img src="images/lipscani.jpg" alt="Sunset over Lipscani Street in Bucharest's Old Town">
+      <figcaption>Sunset on Lipscani Street, the heart of the Old Town</figcaption>
+    </figure>
+
     <div class="card">
       <h3>Old Town (Lipscani) for the evening</h3>
       <p>The historic core: cobbled streets, terraces, wine bars, live music spilling out of everywhere. Easy to wander, easy to charm.</p>
@@ -90,11 +106,17 @@
       </ul>
     </div>
 
+    <div class="photorow">
+      <img src="images/athenaeum.jpg" alt="The Romanian Athenaeum concert hall">
+      <img src="images/carturesti.jpg" alt="Cărturești Carusel spiral bookstore interior">
+    </div>
+    <p class="sub" style="text-align:center;margin-top:-6px">The Romanian Athenaeum, and the white spiral of Cărturești Carusel</p>
+
     <div class="grid">
       <div class="card">
         <h3>If you have daylight</h3>
         <ul>
-          <li><b>Romanian Athenaeum</b> — stunning concert hall</li>
+          <li><b>Romanian Athenaeum</b> — stunning 19th-century concert hall, worth seeing even just from outside</li>
           <li><b>Palace of Parliament</b> — the absurdly huge one</li>
           <li><b>Village Museum</b> — open-air, by the lake in Herăstrău Park</li>
         </ul>
@@ -111,6 +133,12 @@
   <div class="wrap">
     <h2>Day 2 — <span class="em">Into the mountains</span></h2>
     <p class="sub">The big day. Drive up the Prahova Valley, hit the royal castle, then Dracula's castle, and land in Brașov for the night.</p>
+
+    <div class="photorow">
+      <img src="images/bran.jpg" alt="Bran Castle, known as Dracula's Castle">
+      <img src="images/brasov.jpg" alt="Council Square in medieval Brașov">
+    </div>
+    <p class="sub" style="text-align:center;margin-top:-6px">Bran Castle on its cliff, and Brașov's Council Square</p>
 
     <div class="day">
       <div class="tag">Stop 1 · ~1h45 from Bucharest</div>
@@ -133,6 +161,10 @@
       <div class="meta"><span class="pill">Stay 1 night</span><span class="pill warm">Dinner in Council Square</span></div>
     </div>
 
+    <figure>
+      <img src="images/bucegi.jpg" alt="The Sphinx rock formation on the Bucegi plateau">
+      <figcaption>The Sphinx on the Bucegi plateau, reached by cable car from Bușteni</figcaption>
+    </figure>
     <div class="tip"><b>Alternative for Day 2 if you'd rather hike:</b> from <b>Bușteni</b> take the cable car up onto the <b>Bucegi plateau</b> — alpine meadows at 2,000m with the famous <b>Sphinx</b> and <b>Babele</b> rock formations. Easy walking, huge views, no serious effort required.</p>
   </div>
 </section>
@@ -141,6 +173,11 @@
   <div class="wrap">
     <h2>Day 3 — <span class="em">A Saxon village, then home</span></h2>
     <p class="sub">Sunday. Brașov in the morning, then the place that seals it before you head to the airport.</p>
+
+    <figure>
+      <img src="images/viscri.jpg" alt="The white fortified Saxon church at Viscri">
+      <figcaption>The fortified Saxon church at Viscri, the village Claudia and I went to</figcaption>
+    </figure>
 
     <div class="card">
       <h3>Viscri — the fortified Saxon village</h3>
